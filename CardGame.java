@@ -39,6 +39,7 @@ public class CardGame {
 		shuffle();
 		shuffle();
 		shuffle();
+		
 
 		//for(Card c: deckOfCards)
 			//System.out.println(c);
