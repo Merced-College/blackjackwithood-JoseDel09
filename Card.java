@@ -1,6 +1,6 @@
-public class Card {
+//Jose Delgadillo
 
-    //  Felix oliveira-Machado
+public class Card {
     //data variables
     //fields from the file heart,ace,11,ah.gif
     private String suit;
@@ -42,7 +42,7 @@ public class Card {
         this.picName = picName;
     }
 
-    //getters...........................
+    //getters.......................
     public String getSuit(){ 
         return suit;
     }
@@ -62,7 +62,7 @@ public class Card {
     public boolean equals(Card other) {
         return rank.equals(other.rank);
     }
-    //too string method
+    //too string method.......
     public String toString(){
         return "suit" + suit + " value" + value;
     }
